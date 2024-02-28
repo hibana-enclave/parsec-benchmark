@@ -1,9 +1,0 @@
-#!/bin/bash
-
-source ${PARSECDIR}/pkgs/kernels/dedup/parsec/clang.bldconf
-
-# Override build environment
-build_env="version=serial"
-export CC=/usr/bin/varys-clang
-export CXX=/usr/bin/varys-clang++
-

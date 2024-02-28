@@ -1,8 +1,0 @@
-#!/bin/bash
-
-source ${PARSECDIR}/pkgs/apps/bodytrack/parsec/clang.bldconf
-
-# Override build environment
-build_conf="--disable-threads"
-export CC=/usr/bin/strongbox-clang
-export CXX=/usr/bin/strongbox-clang++

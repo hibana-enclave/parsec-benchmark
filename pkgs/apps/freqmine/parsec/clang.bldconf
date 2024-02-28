@@ -1,7 +1,0 @@
-#!/bin/bash
-
-# clang.bldconf - configuration file for PARSEC
-
-# Default parallelization is openmp
-source ${PARSECDIR}/pkgs/apps/freqmine/parsec/clang-openmp.bldconf
-
