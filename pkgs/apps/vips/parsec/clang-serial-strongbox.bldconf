@@ -1,0 +1,9 @@
+#!/bin/bash
+
+source ${PARSECDIR}/pkgs/apps/vips/parsec/clang.bldconf
+
+# Override configuration
+build_conf="${vips_basic_conf} --disable-threads"
+export CC=/usr/bin/strongbox-clang
+export CXX=/usr/bin/strongbox-clang++
+export CFLAGS="${STRONGBOX_FLAGS}"

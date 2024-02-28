@@ -1,0 +1,8 @@
+#!/bin/bash
+
+source ${PARSECDIR}/pkgs/libs/libxml2/parsec/clang.bldconf
+
+# Override configuration flags
+build_conf="--disable-shared --without-threads"
+export CC=clang
+export CXX=clang++

@@ -1,0 +1,9 @@
+#!/bin/bash
+
+source ${PARSECDIR}/pkgs/apps/freqmine/parsec/clang.bldconf
+
+# Override build environment
+build_env=""
+export CC=/usr/bin/varys-clang
+export CXX=/usr/bin/varys-clang++
+
